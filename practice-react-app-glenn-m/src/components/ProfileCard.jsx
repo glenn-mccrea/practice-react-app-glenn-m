@@ -5,7 +5,7 @@ const ProfileCard = (props) => {
     <div className="card-container">
       <div className="card">
         <h2>
-          <strong>{props.personName}</strong>
+          <strong>Name: {props.personName}</strong>
         </h2>
         <h3>
           Age: <em>{props.age}</em>
